@@ -26,12 +26,6 @@ This repository contains a small, static website that reproduces the layout and 
 
 The project is static — no build step required. You can view it locally by opening `index.html` in your browser. For a better development experience (CORS-safe, reloads), use a simple static server. Example (with Python 3):
 
-```bash
-# from project root
-python -m http.server 8000
-# then open http://localhost:8000
-```
-
 Or use VS Code Live Server extension and open the root folder.
 
 ## Notes for developers
