@@ -1,0 +1,293 @@
+/* General Styling*/
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Prevent unwanted horizontal scrolling caused by transformed/offset images */
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+#MacBook {
+  text-align: center;
+}
+
+#MacBook img {
+  margin-top: 20px;
+}
+
+#iphone11Pro {
+  padding-top: 100px;
+  text-align: center;
+  background-color: black;
+}
+
+
+#iphone11Pro .price {
+  color: #585858;
+}
+
+#iphone11 {
+  margin: 50px auto 100px;
+  text-align: center;
+}
+
+#iphone11 .price {
+  color: #878686;
+}
+
+#iphone11 img {
+  position: relative;
+  bottom: 60px;
+  transform: scale(1.5, 1.5);
+  z-index: -1;
+}
+
+#MoreProducts {
+  text-align: center;
+}
+
+#MoreProducts .product {
+  width: 45%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#MoreProducts .row {
+  margin: 20px;
+}
+
+.apple-card {
+  position: relative;
+  right: 55px;
+  bottom: 30px;
+  transform: scale(1.25, 1.25);
+  z-index: -1;
+}
+
+.apple-card-div {
+  overflow: hidden;
+}
+
+.apple-tv-logo {
+  position: relative;
+  left: 135px;
+}
+
+.servant-logo {
+  position: relative;
+  top: 120px;
+  right: 45px;
+  width: 50%;
+}
+
+.Airpods {
+  background-color: black;
+  padding-top: 20px;
+}
+
+.Airpods .product {
+  padding-top: 25px;
+}
+
+.mac-laptop {
+  transform: scale(1, 1);
+}
+
+.ipad {
+  position: relative;
+  left: 90px;
+  transform: scale(3.25, 3);
+  margin: 0 0 !important;
+  z-index: -1;
+}
+
+.ipad-div {
+  overflow: hidden;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #1d1d1f;
+}
+
+.gray {
+  color: #86868b;
+}
+
+.top-50 {
+  margin-top: 50px;
+}
+
+.top-100 {
+  margin-top: 100px;
+}
+
+/* Header Style */
+.nav-wrapper {
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 0.85em;
+  font-weight: 200;
+}
+
+.nav-wrapper ul li a {
+  color: #fff;
+}
+
+.navbar-toggler {
+  color: #fff;
+}
+
+.nav-item {
+  text-align: left !important;
+  padding: 4px 0;
+  border-bottom: 1px solid #4b4b4b;
+}
+
+/* Footer Styling */
+.footer-wrapper {
+  background-color: #f5f5f7;
+  color: #86868b;
+  font-size: 0.7em;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  padding-bottom: 10px;
+  padding-inline-start: 0px;
+}
+
+.footer-wrapper ul a {
+  color: #515154;
+  text-decoration: none;
+}
+
+.my-apple-wrapper {
+  padding-bottom: 15px;
+  margin-top: 10px;
+}
+
+.copyright {
+  margin-top: 15px;
+}
+
+.footer-country {
+  margin-top: 8px;
+}
+
+.flag-wrapper {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 5px;
+}
+
+.footer-country-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer-links-terms ul {
+  display: flex;
+}
+
+.footer-links-terms ul li a {
+  border-right: 1px solid #d2d2d7;
+  padding: 0 5px;
+}
+
+.footer-links-terms ul li:first-child {
+  padding-left: 0;
+}
+
+.footer-links-terms ul li:last-child {
+  border-right: 0;
+}
+
+.footer-links-wrapper h3 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1d1d1f;
+}
+
+.footer-wrapper ul li {
+  padding: 4px 0;
+}
+
+.upper-text-container {
+  border-bottom: 1px solid #d2d2d7;
+  padding: 17px 0 10px;
+  margin-bottom: 20px;
+}
+
+.upper-text-container a {
+  color: #515154;
+}
+
+/*Media Query*/
+/* Footer */
+@media (max-width: 768px) {
+  .footer-links-wrapper ul {
+    display: none;
+  }
+
+  .footer-links-wrapper h3 {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .footer-links-wrapper h3:after {
+    font-family: "FontAwesome";
+    content: "\f067";
+    padding-left: 10px;
+    position: absolute;
+    right: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /*Nav bar*/
+  .nav-item {
+    text-align: center !important;
+    padding: 0;
+    border-bottom: 0px;
+  }
+
+  /*Footer styling*/
+  .my-apple-wrapper {
+    border-bottom: 1px solid #d2d2d7;
+  }
+}
+
+@media (min-width: 992px) {
+
+  /*Footer styling*/
+  .copyright {
+    margin-top: 10px;
+  }
+
+  .footer-country {
+    margin-top: 10px;
+  }
+
+  .footer-links-terms {
+    margin-top: 10px;
+  }
+}
